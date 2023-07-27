@@ -48,8 +48,8 @@ class BarangController extends Controller
         'numeric' => 'Isi :attribute dengan angka'
         ];
         $validator = Validator::make($request->all(), [
-        'Nama' => 'required',
-        'No. hp' => 'required|numeric',
+        // 'Nama' => 'required',
+        // 'No. hp' => 'required|numeric',
         'alamat' => 'required',
         ], $messages);
         if ($validator->fails()) {

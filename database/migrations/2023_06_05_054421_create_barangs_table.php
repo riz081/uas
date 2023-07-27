@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('barangs', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->integer('harga');
-            $table->string('deskripsi');
-            $table->foreignId('position_id')->constrained();
+            $table->string('Nama');
+            $table->integer('NoHP');
+            $table->string('Alamat');
+            $table->string('position_id');
             $table->timestamps();
         });
     }

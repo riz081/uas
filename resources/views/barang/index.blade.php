@@ -15,10 +15,10 @@
         @foreach ($barang as $barang)
         <tr>
         <td>{{ $barang->id }}</td>
-        <td>{{ $barang->nama }}</td>
-        <td>{{ $barang->harga }}</td>
-        <td>{{ $barang->deskripsi }}</td>
-        <td>{{ $barang->satuan->nama }}</td>
+        <td>{{ $barang->Nama }}</td>
+        <td>{{ $barang->NoHP }}</td>
+        <td>{{ $barang->Alamat }}</td>
+        <td>{{ $barang->position_id }}</td>
         <td>
 
             {{-- ACTIONS SECTION --}}
